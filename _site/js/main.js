@@ -32,10 +32,12 @@ $(document).ready(function(){
 		var map;
 		function initMap() {
 		  map = new google.maps.Map(document.getElementById('map'), {
-		    center: {lat: -34.397, lng: 150.644},
+		    center: {lat: -34.426498294, lng: 150.876496494},
 		    zoom: 8
 		  });
 		}
+
+		initMap();
 
 
 	// Counter
